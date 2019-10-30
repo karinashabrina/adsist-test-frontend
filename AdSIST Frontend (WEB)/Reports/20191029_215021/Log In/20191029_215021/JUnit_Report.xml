@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Log In" time="72.394" tests="1" failures="0" errors="0">
+   <testsuite name="Log In" tests="1" failures="0" errors="0" time="72.394" timestamp="2019-10-29 21:50:44" hostname="macbook - macbooks-air" id="Test Suites/Log In">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/macbook/Katalon Studio/AdSIST Frontend (WEB)/Reports/20191029_215021/Log In/20191029_215021"/>
+         <property name="logFiles" value="/Users/macbook/Katalon Studio/AdSIST Frontend (WEB)/Reports/20191029_215021/Log In/20191029_215021/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="macbook - macbooks-air"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.0.2.1"/>
+         <property name="browser" value="Chrome 78.0.3904.70"/>
+         <property name="hostAddress" value="192.168.2.156"/>
+         <property name="sessionId" value="86763704935d4df74cd6731890b1fdf4"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Log In/Email Log In Positive/Valid Email Log In" time="70.15" classname="Test Cases/Log In/Email Log In Positive/Valid Email Log In" status="PASSED">
+         <system-out><![CDATA[2019-10-29 21:50:45 - [TEST_CASE][PASSED] - Test Cases/Log In/Email Log In Positive/Valid Email Log In: Test Cases/Log In/Email Log In Positive/Valid Email Log In
+
+2019-10-29 21:50:46 - [TEST_STEP][PASSED] - openBrowser("https://staging.adsist.ai"): Browser is opened with url: 'https://staging.adsist.ai'
+
+2019-10-29 21:50:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-10-29 21:50:48 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-10-29 21:51:23 - [MESSAGE][PASSED] - Browser is opened with url: 'https://staging.adsist.ai'
+
+2019-10-29 21:51:23 - [TEST_STEP][PASSED] - waitForPageLoad(3): Wait for page load successfully
+
+2019-10-29 21:51:24 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-10-29 21:51:24 - [TEST_STEP][PASSED] - click(findTestObject("Homepage/btn homepage login")): Object: 'Object Repository/Homepage/btn homepage login' is clicked on
+
+2019-10-29 21:51:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Homepage/btn homepage login' is clicked on
+
+2019-10-29 21:51:30 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2019-10-29 21:51:30 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-10-29 21:51:30 - [TEST_STEP][PASSED] - click(findTestObject("Login/btn meruadoresude login"), STOP_ON_FAILURE): Object: 'Object Repository/Login/btn meruadoresude login' is clicked on
+
+2019-10-29 21:51:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btn meruadoresude login' is clicked on
+
+2019-10-29 21:51:33 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2019-10-29 21:51:33 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-10-29 21:51:33 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/field login email"), "karina.shabrina@yahoo.com"): Keys 'karina.shabrina@yahoo.com' sent to object: 'Object Repository/Login/field login email'
+
+2019-10-29 21:51:34 - [MESSAGE][PASSED] - Keys 'karina.shabrina@yahoo.com' sent to object: 'Object Repository/Login/field login email'
+
+2019-10-29 21:51:34 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/field login password"), "c0r3k4r4"): Keys 'c0r3k4r4' sent to object: 'Object Repository/Login/field login password'
+
+2019-10-29 21:51:36 - [MESSAGE][PASSED] - Keys 'c0r3k4r4' sent to object: 'Object Repository/Login/field login password'
+
+2019-10-29 21:51:36 - [TEST_STEP][PASSED] - click(findTestObject("Login/btn login")): Object: 'Object Repository/Login/btn login' is clicked on
+
+2019-10-29 21:51:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btn login' is clicked on
+
+2019-10-29 21:51:47 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-10-29 21:51:47 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-10-29 21:51:47 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Dashboard/txt dashubodo")): Object 'Object Repository/Dashboard/txt dashubodo' is visible
+
+2019-10-29 21:51:54 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/txt dashubodo' is visible
+
+2019-10-29 21:51:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-10-29 21:51:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-10-29 21:50:44 - [TEST_SUITE][PASSED] - Log In: Test Cases/Log In/Email Log In Positive/Valid Email Log In]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
